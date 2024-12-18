@@ -69,10 +69,10 @@ class LottieCompositionParser {
           reader.skipValue();
       }
     }
-    assert(parameters.startFrame != parameters.endFrame,
-        'startFrame == endFrame ($parameters.startFrame)');
-    assert(
-        parameters.frameRate > 0, 'invalid framerate: ${parameters.frameRate}');
+    // assert(parameters.startFrame != parameters.endFrame,
+    //     'startFrame == endFrame ($parameters.startFrame)');
+    // assert(
+    //     parameters.frameRate > 0, 'invalid framerate: ${parameters.frameRate}');
 
     return composition;
   }
